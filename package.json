@@ -1,22 +1,20 @@
 {
-  "name": "vanilla-app-template",
-  "private": true,
+  "name": "goit-js-hw-09",
   "version": "1.0.0",
-  "type": "module",
+  "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/vanilla-app-template/",
+    "build": "vite build",
     "preview": "vite preview"
   },
-  "devDependencies": {
-    "glob": "^11.0.0",
-    "postcss": "^8.4.41",
-    "postcss-sort-media-queries": "^5.2.0",
-    "vite": "^5.4.6"
-  },
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
-  "license": "ISC",
   "dependencies": {
+    "glob": "^11.0.3",
+    "simplelightbox": "^2.14.3",
+    "validator": "^13.15.15"
+  },
+  "devDependencies": {
+    "postcss-sort-media-queries": "^5.2.0",
+    "vite": "^4.5.14",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"
   }
